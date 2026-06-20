@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NewsHub — Home</title>
+<meta name="description" content="NewsHub — Sports, Politics, Technology, Health and Entertainment, all in one place.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-bar">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"></span>NEWS<span class="logo-hub">HUB</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" class="nav-link is-active" style="--nav-accent:var(--c-home)">Home</a></li>
+        <li><a href="pages/sports.html" class="nav-link" style="--nav-accent:var(--c-sports)">Sports</a></li>
+        <li><a href="pages/politics.html" class="nav-link" style="--nav-accent:var(--c-politics)">Politics</a></li>
+        <li><a href="pages/technology.html" class="nav-link" style="--nav-accent:var(--c-tech)">Technology</a></li>
+        <li><a href="pages/health.html" class="nav-link" style="--nav-accent:var(--c-health)">Health</a></li>
+        <li><a href="pages/entertainment.html" class="nav-link" style="--nav-accent:var(--c-entertainment)">Entertainment</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="btn" title="Coming soon"><span class="btn-label">Log In</span></button>
+      <button type="button" class="btn btn-solid" title="Coming soon"><span class="btn-label">Sign Up</span></button>
+      <input type="checkbox" id="theme-toggle" class="theme-toggle-input" role="switch" aria-label="Toggle dark mode">
+      <label for="theme-toggle" class="theme-toggle">
+        <span class="icon-moon">☾</span>
+        <span class="icon-sun">☀</span>
+      </label>
+    </div>
+  </div>
+
+</header>
+
+<main id="main">
+
+  <!-- HERO — top story slot -->
+  <section class="hero wrap">
+    <p class="eyebrow">Top Story</p>
+    <h1 class="hero-headline">This is where your lead headline goes</h1>
+    <p class="hero-dek">Swap this placeholder for the day's biggest story. Aim for a headline under 70 characters and a one- or two-sentence dek that tells readers why it matters.</p>
+    <p class="hero-meta">STAFF REPORT — JUN 20, 2026</p>
+  </section>
+
+  <!-- FEATURED — one card per category, ready for real stories -->
+  <section class="section wrap">
+    <h2 class="section-title">Featured</h2>
+    <div class="card-grid">
+
+      <article class="story-card">
+        <div class="media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--c-sports)">Sports</p>
+        <h3>Headline placeholder for a sports story</h3>
+        <p>One or two lines of summary text go here once the story is written.</p>
+        <p class="timestamp">5 MIN READ</p>
+      </article>
+
+      <article class="story-card">
+        <div class="media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--c-politics)">Politics</p>
+        <h3>Headline placeholder for a politics story</h3>
+        <p>One or two lines of summary text go here once the story is written.</p>
+        <p class="timestamp">4 MIN READ</p>
+      </article>
+
+      <article class="story-card">
+        <div class="media">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--c-tech)">Technology</p>
+        <h3>Headline placeholder for a technology story</h3>
+        <p>One or two lines of summary text go here once the story is written.</p>
+        <p class="timestamp">6 MIN READ</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- LATEST — cross-section feed, the "hub" view -->
+  <section class="section wrap" style="border-bottom:none;">
+    <h2 class="section-title">Latest Across NewsHub</h2>
+    <div class="story-list">
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--c-health)">Health</span>
+        <h4>Headline placeholder for a health story</h4>
+        <span class="timestamp">2H AGO</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--c-entertainment)">Entertainment</span>
+        <h4>Headline placeholder for an entertainment story</h4>
+        <span class="timestamp">3H AGO</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--c-politics)">Politics</span>
+        <h4>Headline placeholder for a politics story</h4>
+        <span class="timestamp">5H AGO</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--c-sports)">Sports</span>
+        <h4>Headline placeholder for a sports story</h4>
+        <span class="timestamp">7H AGO</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--c-tech)">Technology</span>
+        <h4>Headline placeholder for a technology story</h4>
+        <span class="timestamp">9H AGO</span>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <div class="footer-bar">
+    <a href="index.html" class="logo"><span class="logo-mark"></span>NEWS<span class="logo-hub">HUB</span></a>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="#" title="Coming soon">About</a></li>
+        <li><a href="#" title="Coming soon">Contact</a></li>
+        <li><a href="#" title="Coming soon">Privacy</a></li>
+      </ul>
+    </nav>
+    <p class="footer-copy">© 2026 NewsHub. Template for internal use.</p>
+  </div>
+</footer>
+
+</body>
+</html>
