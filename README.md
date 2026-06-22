@@ -22,7 +22,7 @@ project/
 |   ├──sports.css
 │   └── technology.css
 │
-└── assets/
+└── images/
 ```
 
 ## Work Distribution
