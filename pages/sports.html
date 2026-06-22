@@ -4,13 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NewsHub — Sports</title>
-<meta name="description" content="NewsHub — Sports section.">
+<meta name="description" content="NewsHub — Sports section: World Cup 2026, the Basketball Africa League, and Rwandan sport.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../css/sports.css">
 </head>
 <body style="--page-accent:var(--c-sports)">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -47,23 +48,227 @@
 
 <main id="main">
 
-  <div class="page-header wrap">
+  <!-- <div class="page-header wrap">
+    <p class="eyebrow">Sports Desk</p>
     <h1>Sports</h1>
-  </div>
+    <p class="page-dek">From the World Cup's run toward the knockout rounds to Rwanda's basketball and cycling wins this season — here's what's moving in sport.</p>
+  </div> -->
 
-  <div class="wrap">
-    <div class="empty-state">
-      <div class="signal"></div>
-      <h2>No dispatches yet</h2>
-      <p>This section is wired up and ready. Sports stories will appear here once the team starts publishing.</p>
+  <section class="hero wrap">
+    <p class="eyebrow" style="--eyebrow-color:var(--page-accent)">Top Story</p>
+    <h2 class="hero-headline">World Cup 2026 nears the knockout rounds as co-hosts push for safe passage</h2>
+    <p class="hero-dek">Group play in the 48-team tournament is in its closing days across the United States, Mexico and Canada. Mexico became the first side through to the round of 32, Morocco have stayed unbeaten in Group C, and host nation USA still have work to do to secure top spot in Group D.</p>
+    <p class="hero-meta">SPORTS DESK — JUN 21, 2026</p>
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section-title">Featured</h2>
+    <div class="card-grid">
+
+      <article class="story-card">
+        <div class="media">
+          <img src="../images/IMG_9754.jpg" alt="Mexico players celebrating, with the Group A standings table showing Mexico top on 6 points" loading="lazy">
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--page-accent)">World Cup 2026</p>
+        <h3>Mexico becomes first team through as the 48-team field narrows</h3>
+        <p>Co-host Mexico clinched top spot in Group A with a win over South Korea in Guadalajara, while Morocco held off a late Scotland fightback to stay perfect in Group C.</p>
+        <p class="timestamp">4 MIN READ</p>
+      </article>
+
+      <article class="story-card">
+        <div class="media">
+          <img src="../images/IMG_9758.jpg" alt="RSSB Tigers players celebrating as 2026 Basketball Africa League champions" loading="lazy">
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--page-accent)">Basketball</p>
+        <h3>RSSB Tigers stun Petro de Luanda to win Rwanda's first BAL title</h3>
+        <p>Craig Randall II's 33 points lifted the Kigali side to a 90-88 win over Angola's Petro de Luanda in their debut Basketball Africa League season. Randall was later named the league's Most Valuable Player.</p>
+        <p class="timestamp">3 MIN READ</p>
+      </article>
+
+      <article class="story-card">
+        <div class="media">
+          <img src="../images/IMG_9757.jpg" alt="Amavubi players arriving with luggage ahead of a national team trip" loading="lazy">
+        </div>
+        <p class="eyebrow" style="--eyebrow-color:var(--page-accent)">Football</p>
+        <h3>Amavubi handed tough draw for AFCON 2027 qualifying</h3>
+        <p>Rwanda's national team lands in a qualifying group with Mali, Cape Verde and Liberia for the 2027 Africa Cup of Nations, which will be hosted in East Africa for the first time, as the federation chases just its second-ever finals appearance.</p>
+        <p class="timestamp">3 MIN READ</p>
+      </article>
+
     </div>
-  </div>
+  </section>
+
+  <section class="section wrap">
+    <h2 class="section-title">World Cup 2026 — Matchday Wrap</h2>
+    <p class="page-dek">A look at how the group stage is shaping up across the United States, Mexico and Canada.</p>
+
+    <div class="match-list">
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">Mexico <span class="vs">vs</span> South Korea</span>
+          <span class="match-tag">Group A</span>
+        </div>
+        <p class="match-note">Mexico win in Guadalajara to become the tournament's first side into the round of 32.</p>
+      </div>
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">Morocco <span class="vs">vs</span> Scotland</span>
+          <span class="match-tag">Group C</span>
+        </div>
+        <p class="match-note">Morocco survive a late Scotland rally at Boston Stadium to stay unbeaten.</p>
+      </div>
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">Brazil <span class="vs">vs</span> Haiti</span>
+          <span class="match-tag">Group Stage</span>
+        </div>
+        <p class="match-note">Matheus Cunha's brace headlines a comfortable Brazil win.</p>
+      </div>
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">Netherlands <span class="vs">vs</span> Sweden</span>
+          <span class="match-tag">Matchday 10</span>
+        </div>
+        <p class="match-note">A Netherlands rout, alongside Japan easing past Tunisia, helps send Germany through.</p>
+      </div>
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">Curaçao <span class="vs">vs</span> Ecuador</span>
+          <span class="match-tag">Group Stage</span>
+        </div>
+        <p class="match-note">The tournament's smallest host nation hold Ecuador to a draw.</p>
+      </div>
+
+      <div class="match-row">
+        <div class="match-head">
+          <span class="match-teams">USA <span class="vs">vs</span> Australia</span>
+          <span class="match-tag">Group D</span>
+        </div>
+        <p class="match-note">Co-host USA look to seal top spot in their second group-stage match at Seattle Stadium.</p>
+      </div>
+
+    </div>
+
+    <p class="stat-strip">By the numbers: this is the first World Cup to feature <strong>48 teams</strong> across <strong>104 matches</strong> and three co-host nations. Canada head into the knockouts having recorded the most touches in the opposition box of any team in tournament history, while Guadalajara has hosted a record 19 World Cup games without a single goalless draw.</p>
+  </section>
+
+  <!-- PODIUMS -->
+  <section class="section wrap">
+    <h2 class="section-title">On the Podium</h2>
+    <p class="page-dek">Two Rwandan sporting moments worth celebrating this season.</p>
+
+    <div class="podium-grid">
+
+      <div class="podium-card">
+        <h3>Basketball Africa League 2026</h3>
+        <div class="podium-list">
+          <div class="podium-place">
+            <span class="rank">1</span>
+            <div>
+              <p class="name">RSSB Tigers — Rwanda</p>
+              <p class="detail">Champions in their debut BAL season, beating Petro de Luanda 90-88 at BK Arena in Kigali.</p>
+            </div>
+          </div>
+          <div class="podium-place">
+            <span class="rank">2</span>
+            <div>
+              <p class="name">Petro de Luanda — Angola</p>
+              <p class="detail">Runners-up after entering as defending champions on their record sixth BAL appearance.</p>
+            </div>
+          </div>
+          <div class="podium-place">
+            <span class="rank">3</span>
+            <div>
+              <p class="name">Al Ahly Ly — Libya</p>
+              <p class="detail">Took third place with a 106-98 win over Egypt's Al Ahly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="podium-card">
+        <h3>Tour du Rwanda 2026 — GC</h3>
+        <div class="podium-list">
+          <div class="podium-place">
+            <span class="rank">1</span>
+            <div>
+              <p class="name">Moritz Kretschy</p>
+              <p class="detail">NSN Development Team — wins the overall title as the eight-stage race finishes back in Kigali.</p>
+            </div>
+          </div>
+          <div class="podium-place">
+            <span class="rank">2</span>
+            <div>
+              <p class="name">Johannes Adamietz</p>
+              <p class="detail">Rounds out the general classification podium.</p>
+            </div>
+          </div>
+          <div class="podium-place">
+            <span class="rank">3</span>
+            <div>
+              <p class="name">Duarte Marivoet</p>
+              <p class="detail">Completes the top three for the race, held 22 February – 1 March 2026.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LATEST -->
+  <section class="section wrap" style="border-bottom:none;">
+    <h2 class="section-title">Latest in Rwandan Sport</h2>
+    <div class="story-list">
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">Basketball</span>
+        <h4>RSSB Tigers crowned BAL champions in front of a home crowd at BK Arena</h4>
+        <span class="timestamp">MAY 31, 2026</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">Cycling</span>
+        <h4>Moritz Kretschy wins overall as Tour du Rwanda returns to Kigali for its final stage</h4>
+        <span class="timestamp">MAR 2026</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">Football</span>
+        <h4>Amavubi beat Estonia 2-0 in Kigali to win the FIFA Series 2026 final</h4>
+        <span class="timestamp">MAR 2026</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">Football</span>
+        <h4>Amavubi drawn with Mali, Cape Verde and Liberia in AFCON 2027 qualifying</h4>
+        <span class="timestamp">JUN 2026</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">Football</span>
+        <h4>Rayon Sports plan major squad rebuild ahead of the 2026/27 BK Pro League season</h4>
+        <span class="timestamp">JUN 2026</span>
+      </div>
+
+      <div class="story-row">
+        <span class="tag" style="--tag-color:var(--page-accent)">World Cup</span>
+        <h4>World Cup 2026 group stage nears its close as the 48-team field narrows toward the round of 32</h4>
+        <span class="timestamp">JUN 2026</span>
+      </div>
+
+    </div>
+  </section>
 
 </main>
 
 <footer class="site-footer wrap">
   <div class="footer-bar">
-    <a href="../index.html" class="logo"><span class="logo-mark"></span>NEWS<span class="logo-hub">HUB</span></a>
     <nav aria-label="Footer">
       <ul class="footer-links">
         <li><a href="#" title="Coming soon">About</a></li>
@@ -71,7 +276,7 @@
         <li><a href="#" title="Coming soon">Privacy</a></li>
       </ul>
     </nav>
-    <p class="footer-copy">© 2026 NewsHub. Template for internal use.</p>
+    <p class="footer-copy">© 2026 NewsHub.</p>
   </div>
 </footer>
 
